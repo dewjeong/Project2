@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	
+	<!-- 커넥션풀 (DataSource) 설정  - Mysql접속용 -->
+<Resource
+ name="jdbc/jspbeginner"
+ auth="Container"
+ type="javax.sql.DataSource"
+ driverClassName="com.mysql.jdbc.Driver"
+ url="jdbc:mysql://localhost:3306/jspbeginner?characterEncoding=UTF-8&amp;serverTimezone=UTC"
+ username="jspid"
+ password="jsppass"
+/>
+
+	<!-- 커넥션풀 (DataSource) 설정  - Oracle접속용 -->
+<!-- <Resource -->
+<!--  name="Oracle" -->
+<!--  auth="Container" -->
+<!--  type="javax.sql.DataSource" -->
+<!--  driverClassName="oracle.jdbc.OracleDriver" -->
+<!--  url="jdbc:oracle:thin:@localhost:1522:orcl"  -->
+<!--  username="musthave" -->
+<!--  password="1234" -->
+<!-- /> -->
+
+
+</Context>
+
+
